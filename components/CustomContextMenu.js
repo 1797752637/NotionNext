@@ -90,8 +90,6 @@ export default function CustomContextMenu(props) {
     setShow(false)
   }
 
-
-
   function handleChangeDarkMode() {
     const newStatus = !isDarkMode
     saveDarkModeToCookies(newStatus)
