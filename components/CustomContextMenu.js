@@ -152,7 +152,6 @@ export default function CustomContextMenu(props) {
                         {isDarkMode ? <i className="fa-regular fa-sun mr-2" /> : <i className="fa-regular fa-moon mr-2" />}
                         <div className='whitespace-nowrap'>{isDarkMode ? locale.MENU.LIGHT_MODE : locale.MENU.DARK_MODE}</div>
                     </div>
-                    
                 </div>
 
             </div>
