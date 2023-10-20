@@ -132,7 +132,6 @@ const LayoutBase = (props) => {
                                 <Catalog {...props} />
                                 {slotRight}
                                 {router.route === '/' && <>
-                                    <InfoCard {...props} />
                                     {CONFIG.WIDGET_REVOLVER_MAPS === 'true' && <RevolverMaps />}
                                     <Live2D />
                                 </>}
